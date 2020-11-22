@@ -1,0 +1,8 @@
+.medi,.medi li{background: #5d5d5d;}
+.medi li a:hover{ background:#c5c5c5;}
+.medi li a:hover, .medi li a:hover > i{ color:#5d5d5d}
+.medi li a{color: #ffffff;}
+@media screen and (min-width: 0px) and (max-width: 480px)
+{ 
+.medi li{border-bottom:1px solid #c5c5c5}
+}

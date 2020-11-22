@@ -1,0 +1,194 @@
+
+/*-------------------------Respansiv-----------------*/
+
+@media(max-width:480px) {
+
+    .x-card .img-fluid {
+        width: 130px !important;
+        height: auto;
+    }
+
+    .x-card {
+        margin-right: 50px;
+    }
+}
+
+
+@media(max-width:575px) {
+
+    .img-new {
+        width: 118px !important;
+        height: auto;
+        text-align: center;
+        margin-right: 10px !important
+    }
+
+        .img-new li {
+            font-size: 12px !important;
+        }
+}
+
+
+@media(max-width:767px) {
+
+    /*--------------------åÏÑ-------------------------*/
+    header {
+        position: relative;
+        background: #222;
+        background-color: #0e400b;
+    }
+
+    .header-03 {
+        margin-top: 0px;
+    }
+
+
+    /*------------ÂãÇÑ-----------------------------*/
+    .feature11 .icon-bg {
+        width: 46% !important;
+    }
+
+    .feature11 p {
+        font-size: 13px !important;
+    }
+
+    .feature11 .step {
+        font-size: 14px !important;
+        width: 40px !important;
+        height: 40px !important;
+        line-height: 45px !important;
+    }
+
+    /*----------------------*/
+    .img-new li {
+        font-size: 9px !important;
+    }
+}
+
+@media(max-width:991px) {
+    .container {
+        max-width: 95% !important;
+    }
+
+
+    #search {
+        position: relative !important;
+        background-color: rgba(18,197,195,0.8);
+        margin: 5px 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        height: auto !important;
+    }
+}
+
+@media(max-width:992px) {
+
+    .header-03 #tophead a, .header-03 #tophead span {
+        font-size: 11px;
+    }
+
+    header .menu-list-items .container-fluid {
+        padding: 0 15px !important;
+    }
+
+    .mega-menu .menu-logo, .header-03 .mega-menu .menu-logo, .mega-menu.desktopTopFixed .menu-logo {
+        margin: 15px 15px;
+    }
+
+        .mega-menu .menu-logo > li, .mega-menu .menu-logo > li > a {
+            float: right;
+        }
+
+            .mega-menu .menu-logo > li > a img, .header-03 .mega-menu .menu-logo > li > a img, .header-04 .logo img {
+                height: 50px;
+            }
+
+    .mega-menu .mobileTriggerButton {
+        z-index: 99;
+    }
+
+
+    .mega-menu .menu-mobile-collapse-trigger::before, .mega-menu .menu-mobile-collapse-trigger::after, .mega-menu .menu-mobile-collapse-trigger span {
+        height: 2px !important;
+        width: 40px !important;
+        border-radius: 30px;
+    }
+
+    .mega-menu .menu-links {
+        position: absolute;
+        top: 82px;
+        right: 0;
+        display: inline-block;
+        width: 100% !important;
+        padding: 0 15px !important;
+    }
+
+        .mega-menu .menu-links > li {
+            line-height: 10px !important;
+            border-right: 1px solid #dadada;
+            border-left: 1px solid #dadada;
+            border-bottom: 1px solid #dadada;
+            background: #fff;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+        }
+
+            .mega-menu .menu-links > li > a {
+                line-height: 44px !important;
+                color: #222 !important;
+                display: block !important;
+                font-size: 12px !important;
+                line-height: 32px !important;
+                padding: 0 10px !important;
+            }
+
+    .mega-menu .mobileTriggerButton {
+        z-index: 99;
+    }
+
+        .mega-menu .mobileTriggerButton::before {
+            position: absolute;
+            left: 15px;
+            top: 0;
+            font-family: FontAwesome;
+            content: "\f107";
+            font-size: 20px;
+            z-index: 99;
+        }
+
+    .mega-menu .drop-down-multilevel a .mobileTriggerButton:before {
+        display: none;
+    }
+
+    .mega-menu .drop-down ul {
+        margin-bottom: 0 !important;
+    }
+
+    .mega-menu .drop-down a {
+        font-size: 13px !important;
+        padding: 0px !important;
+    }
+
+    .mega-menu .drop-down a {
+        font-size: 14px;
+        padding: 10px 0;
+        display: inline-block !important;
+        width: 100% !important;
+    }
+}
+
+@media(max-width:1199px) {
+    header .menu-list-items .container-fluid {
+        padding: 0px 40px !important;
+    }
+
+    .mega-menu .menu-logo > li > a img {
+        height: 50px !important;
+    }
+}
+
+@media(min-width:1200px) {
+    .owl-carousel .item img {
+        height: 500px !important;
+        width: 100% !important;
+    }
+}
