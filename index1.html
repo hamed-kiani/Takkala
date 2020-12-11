@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>تمرین 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <style>
+        img{
+
+            border-radius: 4px;
+            box-shadow:  0 0 3px black;
+            margin-left: 400px;
+            margin-top: 20px;
+            float: right;
+        }
+        table
+        {
+
+            border-collapse: separate;
+            text-indent: initial;
+            border-spacing: 2px;
+        }
+        .menu ul li{
+
+            display: inline-block;
+            margin:2%;
+            float: right;
+        }
+        .menu ul li a{
+            font-weight: bold;
+            font-family: "Berlin Sans FB";
+            font-size: 20px;
+            color: black;
+
+
+        }
+        .menue ul li a:hover{
+
+            background: #ba8b00;
+        }
+        th , td , table{
+            border: 4px solid black;
+            border-collapse:collapse ;
+
+
+
+        }
+        tr{
+
+            display: table-row;
+        }
+        tr, td{
+
+
+            padding: 10px;
+            text-align: center;
+            font-family: "Berlin Sans FB";
+            font-weight: bold;
+        }
+
+
+    </style>
+    <script src="assets/js-music-player-master/main.js"></script>
+    <link rel="stylesheet" href="assets/js-music-player-master/style.css">
+</head>
+<body style="background-image:url(images/wp5684140.png);" dir="rtl">
+<div class="container-fluid">
+    <div class="player" style="background-color: #54663b">
+        <div class="details">
+            <div class="now-playing">hamed-kiani</div>
+            <div class="menu " style="width:100%;height: 60px;float: right;background-color: #15750d ">
+                <ul><li><a href="../Theme/assets/js-music-player-master/index.html" class="btn">music player</a></li></ul>
+                <ul><li><a href="index12.html" class="btn">my chart</a></li></ul>
+                <ul><li><a href="index1.html" class="btn">HOME</a></li></ul>
+
+
+
+            </div>
+            <div class="track-art"></div>
+            <div class="track-name">IMAGIN DROGON</div>
+            <div class="track-artist">kiani</div>
+        </div>
+        <div class="buttons">
+            <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
+            <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
+            <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
+        </div>
+        <div class="slider_container">
+            <div class="current-time">00:00</div>
+            <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+            <div class="total-duration">00:00</div>
+        </div>
+        <div class="slider_container">
+            <i class="fa fa-volume-down"></i>
+            <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+            <i class="fa fa-volume-up"></i>
+        </div>
+    </div>
+
+
+<nav style="width: 100%;height:auto;float: right;">
+    <ul><li><a class="btn"></a></li></ul>
+
+
+
+
+</nav>
+<table style="width: 100%;background-color:#e7e79c;border-radius: 4px;box-shadow: 0 0 2px dimgrey;margin-top: 10px;">
+    <tbody>
+    <tr>
+        <th>column</th>
+        <th>saturday</th>
+        <th>Time</th>
+        <th>sunday</th>
+        <th>TIME</th>
+        <th>monday</th>
+        <th>Time</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td> progrraming</td>
+        <td style="background-color: yellow">at 17:30</td>
+        <td>math</td>
+        <td style="background-color: yellow">at 16:30</td>
+
+        <td>history</td>
+        <td style="background-color: yellow">at 17:30</td>
+
+
+
+
+
+    </tr>
+    <tr>
+
+
+
+        <td>
+            1
+        </td>
+        <td> progrraming</td>
+        <td style="background-color: yellow">at 16:30</td>
+        <td>math</td>
+        <td style="background-color: yellow">at 16:30</td>
+
+        <td>history</td>
+        <td style="background-color: yellow">at 17:30</td>
+
+
+
+    </tr>
+    <tr>
+
+
+        <td>
+            2
+        </td>
+        <td> HISTORY</td>
+        <td style="background-color: yellow">at 18:30</td>
+        <td>math</td>
+        <td style="background-color: yellow">at 17:30</td>
+
+        <td>history</td>
+        <td style="background-color: yellow">at 18:30</td>
+
+
+
+
+    </tr>
+    </tbody>
+</table>
+<hr>
+    <ul><li style="float: right;background-color: dimgrey;border-radius: 4px;display: inline-block;margin: 2% 500px"><a  href="" style="text-decoration: none;font-size: 25px;font-family: 'Berlin Sans FB';font-weight: bold;color: black">SAIEED TOFIG</a></li></ul>
+    <ul><li style="float: right;background-color: dimgrey;border-radius: 4px;display: inline-block;margin: 2% 500px"><a  href="index.html" style="text-decoration: none;font-size: 25px;font-family: 'Berlin Sans FB';font-weight: bold;color: black">SAIEED TOFIG</a></li></ul>
+<ul><li style="float: right;background-color: dimgrey;border-radius: 4px;display: inline-block;margin: 2% 500px"><a  href="index.html" style="text-decoration: none;font-size: 25px;font-family: 'Berlin Sans FB';font-weight: bold;color: black">mohammad reza fatemi</a></li></ul>
+<img src="images/wp3674920.jpg" height="400" width="500"/>
+    <div class="table-1" style="float: left;width: 300px;height: 100px;direction: ltr">
+        <h1 style="font-weight: bold;font-family: 'Bauhaus 93';font-size: 20px;color: #0f6674;text-align: left;margin-top: 0px">chart of HAMED KIANI</h1>
+        <table style="width:480px;background-color:#e7e79c;border-radius: 4px;box-shadow: 0 0 2px dimgrey;margin-top:0px;">
+            <tbody>
+            <tr>
+                <th>column</th>
+                <th>saturday</th>
+                <th>Time</th>
+                <th>sunday</th>
+                <th>TIME</th>
+                <th>monday</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td> progrraming</td>
+                <td style="background-color: yellow">at 17:30</td>
+                <td>math</td>
+                <td style="background-color: yellow">at 16:30</td>
+
+                <td>history</td>
+                <td style="background-color: yellow">at 17:30</td>
+
+
+
+
+
+            </tr>
+            <tr>
+
+
+
+                <td>
+                    1
+                </td>
+                <td> progrraming</td>
+                <td style="background-color: yellow">at 16:30</td>
+                <td>math</td>
+                <td style="background-color: yellow">at 16:30</td>
+
+                <td>history</td>
+                <td style="background-color: yellow">at 17:30</td>
+
+
+
+            </tr>
+            <tr>
+
+
+                <td>
+                    2
+                </td>
+                <td> HISTORY</td>
+                <td style="background-color: yellow">at 18:30</td>
+                <td>math</td>
+                <td style="background-color: yellow">at 17:30</td>
+
+                <td>history</td>
+                <td style="background-color: yellow">at 18:30</td>
+
+
+
+
+            </tr>
+            </tbody>
+        </table>
+
+
+
+
+    </div>
+
+    <img src="images/wp4300423.jpg" height="400" width="500"/>
+    <div class="table-1" style="float: left;width: 300px;height: 100px;direction: ltr">
+        <h1 style="font-weight: bold;font-family: 'Bauhaus 93';font-size: 20px;color: #0f6674;text-align: left;margin-top: 0px">chart of saeed TOFIG</h1>
+        <table style="width:480px;background-color:#e7e79c;border-radius: 4px;box-shadow: 0 0 2px dimgrey;margin-top:0px;">
+            <tbody>
+            <tr>
+                <th>column</th>
+                <th>saturday</th>
+                <th>Time</th>
+                <th>sunday</th>
+                <th>TIME</th>
+                <th>monday</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td> progrraming</td>
+                <td style="background-color: yellow">at 17:30</td>
+                <td>math</td>
+                <td style="background-color: yellow">at 16:30</td>
+
+                <td>history</td>
+                <td style="background-color: yellow">at 17:30</td>
+
+
+
+
+
+            </tr>
+            <tr>
+
+
+
+                <td>
+                    1
+                </td>
+                <td> progrraming</td>
+                <td style="background-color: yellow">at 16:30</td>
+                <td>math</td>
+                <td style="background-color: yellow">at 16:30</td>
+
+                <td>history</td>
+                <td style="background-color: yellow">at 17:30</td>
+
+
+
+            </tr>
+            <tr>
+
+
+                <td>
+                    2
+                </td>
+                <td> HISTORY</td>
+                <td style="background-color: yellow">at 18:30</td>
+                <td>math</td>
+                <td style="background-color: yellow">at 17:30</td>
+
+                <td>history</td>
+                <td style="background-color: yellow">at 18:30</td>
+
+
+
+
+            </tr>
+            </tbody>
+        </table>
+
+
+
+
+    </div>
+
+    <img src="images/wp1879832.jpg" height="400" width="500"/>
+    <div class="table-1" style="float: left;width: 300px;height: 100px;direction: ltr">
+        <h1 style="font-weight: bold;font-family: 'Bauhaus 93';font-size: 20px;color: #0f6674;text-align: left;margin-top: 0px">chart of  MOHAMMAD REZA FATEMI</h1>
+        <table style="width:480px;background-color:#e7e79c;border-radius: 4px;box-shadow: 0 0 2px dimgrey;margin-top:0px;">
+            <tbody>
+            <tr>
+                <th>column</th>
+                <th>saturday</th>
+                <th>Time</th>
+                <th>sunday</th>
+                <th>TIME</th>
+                <th>monday</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td> progrraming</td>
+                <td style="background-color: yellow">at 17:30</td>
+                <td>math</td>
+                <td style="background-color: yellow">at 16:30</td>
+
+                <td>history</td>
+                <td style="background-color: yellow">at 17:30</td>
+
+
+
+
+
+            </tr>
+            <tr>
+
+
+
+                <td>
+                    1
+                </td>
+                <td> progrraming</td>
+                <td style="background-color: yellow">at 16:30</td>
+                <td>math</td>
+                <td style="background-color: yellow">at 16:30</td>
+
+                <td>history</td>
+                <td style="background-color: yellow">at 17:30</td>
+
+
+
+            </tr>
+            <tr>
+
+
+                <td>
+                    2
+                </td>
+                <td> HISTORY</td>
+                <td style="background-color: yellow">at 18:30</td>
+                <td>math</td>
+                <td style="background-color: yellow">at 17:30</td>
+
+                <td>history</td>
+                <td style="background-color: yellow">at 18:30</td>
+
+
+
+
+            </tr>
+            </tbody>
+        </table>
+
+
+
+
+    </div>
+
+    <img src="images/wp1879813.jpg" height="400" width="500"/>
+    <div class="table-1" style="float: left;width: 300px;height: 100px;direction: ltr">
+        <h1 style="font-weight: bold;font-family: 'Bauhaus 93';font-size: 20px;color: #0f6674;text-align: left;margin-top: 0px">chart of HADI JAVADI</h1>
+        <table style="width:480px;background-color:#e7e79c;border-radius: 4px;box-shadow: 0 0 2px dimgrey;margin-top:0px;">
+            <tbody>
+            <tr>
+                <th>column</th>
+                <th>saturday</th>
+                <th>Time</th>
+                <th>sunday</th>
+                <th>TIME</th>
+                <th>monday</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td> progrraming</td>
+                <td style="background-color: yellow">at 17:30</td>
+                <td>math</td>
+                <td style="background-color: yellow">at 16:30</td>
+
+                <td>history</td>
+                <td style="background-color: yellow">at 17:30</td>
+
+
+
+
+
+            </tr>
+            <tr>
+
+
+
+                <td>
+                    1
+                </td>
+                <td> progrraming</td>
+                <td style="background-color: yellow">at 16:30</td>
+                <td>math</td>
+                <td style="background-color: yellow">at 16:30</td>
+
+                <td>history</td>
+                <td style="background-color: yellow">at 17:30</td>
+
+
+
+            </tr>
+            <tr>
+
+
+                <td>
+                    2
+                </td>
+                <td> HISTORY</td>
+                <td style="background-color: yellow">at 18:30</td>
+                <td>math</td>
+                <td style="background-color: yellow">at 17:30</td>
+
+                <td>history</td>
+                <td style="background-color: yellow">at 18:30</td>
+
+
+
+
+            </tr>
+            </tbody>
+
+        </table>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+</div>
+</div>
+</body>
+</html>
