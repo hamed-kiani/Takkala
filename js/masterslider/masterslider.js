@@ -3631,7 +3631,7 @@ MSSliderEvent.DESTROY				= 'ms_destroy';
 		this.layerController = new MSLayerController(this);
 	};
 	/**
-	 * this method called after loading all assets related to this slide
+	 * this method called after loading all 1 related to this slide
 	 */
 	p.assetsLoaded = function(){
 		this.ready = true;
@@ -3759,7 +3759,7 @@ MSSliderEvent.DESTROY				= 'ms_destroy';
 	};
 
 	/**
-	 * layerController on assets load callback
+	 * layerController on 1 load callback
 	 */
 	p._onLayersLoad = function () {
 		this.layersLoaded = true;

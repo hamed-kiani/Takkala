@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{all, bootstrap-theme, bootswatch, jquery-1.12.4, jquery-2.2.0, jquery-3.2.1.slim, jquerysctipttop, popper.js, slick, style}" />
+    <file url="PROJECT" libraries="{all, bootstrap-theme, bootswatch, count, jquery-1.12.4, jquery-2.2.0, jquery-3.2.1.slim, jquerysctipttop, modernizr, popper.js, slick, style}" />
   </component>
 </project>

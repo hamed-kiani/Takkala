@@ -18,5 +18,7 @@
     <orderEntry type="library" name="jquery-1.12.4" level="application" />
     <orderEntry type="library" name="bootswatch" level="application" />
     <orderEntry type="library" name="bootstrap-theme" level="application" />
+    <orderEntry type="library" name="modernizr" level="application" />
+    <orderEntry type="library" name="count" level="application" />
   </component>
 </module>

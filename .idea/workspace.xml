@@ -24,7 +24,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -36,11 +36,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\images" />
       <recent name="C:\Users\KARBAR\WebstormProjects\Theme" />
+      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\assets\css" />
+      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\js" />
+      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\images" />
       <recent name="C:\Users\KARBAR\WebstormProjects\Theme\assets" />
-      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\image" />
-      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\KARBAR\WebstormProjects\untitled3\css" />
@@ -214,6 +214,17 @@
       <workItem from="1607627576409" duration="1025000" />
       <workItem from="1607629965730" duration="972000" />
       <workItem from="1607662118776" duration="1743000" />
+      <workItem from="1607664799067" duration="1523000" />
+      <workItem from="1607680987135" duration="1690000" />
+      <workItem from="1607682738847" duration="1761000" />
+      <workItem from="1607684564164" duration="1573000" />
+      <workItem from="1607692872075" duration="461000" />
+      <workItem from="1607693742886" duration="240000" />
+      <workItem from="1607696605040" duration="1706000" />
+      <workItem from="1607698355243" duration="1777000" />
+      <workItem from="1607700191047" duration="2736000" />
+      <workItem from="1607703138187" duration="1104000" />
+      <workItem from="1607704947309" duration="1762000" />
     </task>
     <servers />
   </component>
@@ -233,18 +244,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604036951028" />
-    <state x="549" y="175" key="FileChooserDialogImpl" timestamp="1606213447306">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607693335217">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604495385497" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607693335217" />
     <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606213447306" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1603303720355">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603303720355" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604181932456">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607698248492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604181932456" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607698248492" />
   </component>
 </project>
