@@ -20,5 +20,7 @@
     <orderEntry type="library" name="bootstrap-theme" level="application" />
     <orderEntry type="library" name="modernizr" level="application" />
     <orderEntry type="library" name="count" level="application" />
+    <orderEntry type="library" name="core" level="application" />
+    <orderEntry type="library" name="lightview" level="application" />
   </component>
 </module>

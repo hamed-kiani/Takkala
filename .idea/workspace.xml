@@ -35,15 +35,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\KARBAR\WebstormProjects\Theme" />
-      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\assets\css" />
-      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\js" />
-      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\images" />
-      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\assets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\KARBAR\WebstormProjects\untitled3\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KARBAR\WebstormProjects\Theme" />
+      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\images" />
+      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\assets\css" />
+      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\js" />
+      <recent name="C:\Users\KARBAR\WebstormProjects\Theme\assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -225,6 +225,17 @@
       <workItem from="1607700191047" duration="2736000" />
       <workItem from="1607703138187" duration="1104000" />
       <workItem from="1607704947309" duration="1762000" />
+      <workItem from="1607716238695" duration="1769000" />
+      <workItem from="1607718053899" duration="1120000" />
+      <workItem from="1607719210203" duration="791000" />
+      <workItem from="1607757037091" duration="2381000" />
+      <workItem from="1607766234131" duration="1291000" />
+      <workItem from="1607767597882" duration="726000" />
+      <workItem from="1607776764581" duration="1873000" />
+      <workItem from="1607778680486" duration="964000" />
+      <workItem from="1607780680086" duration="594000" />
+      <workItem from="1607784134432" duration="1159000" />
+      <workItem from="1607803865559" duration="1510000" />
     </task>
     <servers />
   </component>
